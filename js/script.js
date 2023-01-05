@@ -58,21 +58,20 @@ const swiperEasy = new Swiper('.swiper-easy', {
     //бесконечный слайдер
     loop: false,
 
-    //свободный режим перемотки слайдов
-    freeMode: true,
-
     //скорость
-    speed: 800,
+    speed: 1500,
 
     //ширина экрана
     breakpoints: {
         360: {
             slidesPerView: 1,  //количество слайдов для показа
             centeredSlides: true,  //активный слайд по центру
+            freeMode: false,  //свободный режим перемотки слайдов
         },
         768: {
             slidesPerView: 1.5,  //количество слайдов для показа
             centeredSlides: false,  //активный слайд по центру
+            freeMode: true,  //свободный режим перемотки слайдов
         },
     },
     //отключить предзагрузку картинок
