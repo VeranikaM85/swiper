@@ -141,7 +141,7 @@ const swiperParallax = new Swiper('.swiper-parallax', {
     */
 
     //Стартовый слайд
-    initialSlide: 0,
+    initialSlide: 1,
 
     //бесконечный слайдер
     loop: false,
