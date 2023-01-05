@@ -140,9 +140,6 @@ const swiperParallax = new Swiper('.swiper-parallax', {
     slidesPerGroup: 3,
     */
 
-    //Стартовый слайд
-    initialSlide: 1,
-
     //бесконечный слайдер
     loop: false,
 
@@ -157,10 +154,14 @@ const swiperParallax = new Swiper('.swiper-parallax', {
         360: {
             slidesPerView: 1,  //количество слайдов для показа
             centeredSlides: true,  //активный слайд по центру
+            //Стартовый слайд
+            initialSlide: 1,
         },
         768: {
             slidesPerView: 1,  //количество слайдов для показа
             centeredSlides: false,  //активный слайд по центру
+            //Стартовый слайд
+           initialSlide: 2,
         },
     },
     //отключить предзагрузку картинок
